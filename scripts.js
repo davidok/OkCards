@@ -7,7 +7,7 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 	
 		//$() tricking the system into thinking javascript is HTML
 		// wrapping items affected by 'Read more' into new div, moreInfo
-	var template = 	$( '<div class="quoteContainer">'+
+	var $template = 	$( '<div class="quoteContainer">'+
 					'<div class="mainQuote">'+rowData.mainQuote+'</div>'+
 					'<div class="readMore">Read more</div>'+
 					'<div class="moreInfo">'+ 
@@ -17,8 +17,8 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 						'<div class="location">'+rowData.location+'</div>'+
 					'</div>'+	
 					'</div>');
-}
-	template.find(".readMore").on("click", toggleContent);
+
+	$template.find(".readMore").on("click", toggleContent);
 	
 	function toggleContent(e) {
 		$quoteContainer = $(this).parent();
@@ -30,7 +30,7 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 		$quoteContainer.addClass("expanded");
 			
 		}
-
+}
 	
 	//append is a jquery function that says "take this bunch of stuff and add it to the div that has this name"
 	$('#dataContainer').append($template);
