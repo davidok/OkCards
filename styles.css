@@ -2,10 +2,10 @@
 
 /*
  * body {
-	background-image: url("http://fc01.deviantart.net/fs71/i/2011/190/c/b/leather_darkgrey_by_narkos01-d3lhij4.jpg");
-	background-repeat: no-repeat;
-	background-size: 1500px 1500px;
-}
+ background-image: url("http://fc01.deviantart.net/fs71/i/2011/190/c/b/leather_darkgrey_by_narkos01-d3lhij4.jpg");
+ background-repeat: no-repeat;
+ background-size: 1500px 1500px;
+ }
  */
 
 p {
@@ -16,7 +16,8 @@ p {
 .mainQuote {
 	font-size: 40px;
 	font-family: 'Impact';
-	color: black;
+	text-shadow: 7px -1px 17px rgba(0,0,0,0.46), 8px -1px 18px rgba(0,0,0,0.44), 4px 7px 67px rgba(0,0,0,0.46), -9px 18px 26px rgba(0,0,0,0.47);
+	color: white;
 	font-weight: 900;
 	font-style: normal;
 }
@@ -63,11 +64,11 @@ p {
 	font-style: bold;
 }
 
-.moreInfo{
+.moreInfo {
 	display: none;
 }
 
-.expanded .moreInfo{
+.expanded .moreInfo {
 	display: block;
 }
 
@@ -80,5 +81,5 @@ p {
  font-family: 'Egyptian Slate Std';
  float: left;
  margin-bottom: 10px;
- text-align: left; 
-}*/
+ text-align: left;
+ }*/
