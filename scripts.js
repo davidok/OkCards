@@ -18,3 +18,4 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 					'</div>'+	
 					'</div>');
 }
+	template.find(".readMore").on("click", toggleContent);
