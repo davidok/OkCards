@@ -1,0 +1,64 @@
+/* Styling inspired by Polygon.com: http://www.polygon.com/features/2015/3/30/8311735/the-walking-dead-invincible-outcast-fear-the-walking-dead-interview-robert-kirkman*/
+
+body {
+	background-image: url("http://fc01.deviantart.net/fs71/i/2011/190/c/b/leather_darkgrey_by_narkos01-d3lhij4.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 1500px;
+}
+
+p {
+	color: white;
+	font-family: 'Century Gothic';
+}
+
+.mainQuote {
+	font-size: 40px;
+	font-family: 'Impact';
+	color: white;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.wholeQuote {
+	font-size: 20px;
+	font-family: 'Century Gothic';
+	background: -webkit-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.source {
+	text-align: center;
+	color: #ec135b;
+	font-family: 'Georgia';
+	font-size: 14px;
+	font-style: italic;
+}
+
+.yearsClean {
+	text-align: center;
+	color: #ec135b;
+	font-family: 'Georgia';
+	font-size: 14px;
+	font-style: italic;
+}
+
+.location {
+	text-align: center;
+	color: #ec135b;
+	font-family: 'Georgia';
+	font-size: 14px;
+	font-style: italic;
+}
+
+/*In-class styling from the Guardian is below.
+
+ font-size: 30px;
+ width: 700px;
+ margin: 0 auto;
+ line-height: 35px;
+ font-family: 'Egyptian Slate Std';
+ float: left;
+ margin-bottom: 10px;
+ text-align: left; */
+}
