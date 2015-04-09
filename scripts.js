@@ -19,3 +19,15 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 					'</div>');
 }
 	template.find(".readMore").on("click", toggleContent);
+	
+	function toggleContent(e) {
+		$quoteContainer = $(this).parent();
+		
+		if ($quoteContainer.hasClass("expanded")){ //quoteContainer has class .expanded (you can see content so you want to hide it)
+			$quoteContainer.removeClass("expanded");
+			
+		}else{ //quoteContainer does not have class expanded (you can't see content so you want to open it)
+		$quoteContainer.addClass("expanded");
+			
+		}
+	}
