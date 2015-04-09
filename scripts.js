@@ -30,4 +30,9 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 		$quoteContainer.addClass("expanded");
 			
 		}
-	}
+
+	
+	//append is a jquery function that says "take this bunch of stuff and add it to the div that has this name"
+	$('#dataContainer').append($template);
+	
+}

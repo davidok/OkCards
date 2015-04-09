@@ -51,6 +51,24 @@ p {
 	font-style: italic;
 }
 
+.readMore {
+	color: red;
+	font-size: 1em;
+	/*
+	 * margin: em -- top, right, bottom, left
+	 */
+	margin: 1em 0;
+	font-style: bold;
+}
+
+.moreInfo{
+	display: none;
+}
+
+.expanded .moreInfo{
+	display: block;
+}
+
 /*In-class styling from the Guardian is below.
 
  font-size: 30px;
