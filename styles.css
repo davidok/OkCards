@@ -1,20 +1,22 @@
 /* Styling inspired by Polygon.com: http://www.polygon.com/features/2015/3/30/8311735/the-walking-dead-invincible-outcast-fear-the-walking-dead-interview-robert-kirkman*/
 
-body {
+/*
+ * body {
 	background-image: url("http://fc01.deviantart.net/fs71/i/2011/190/c/b/leather_darkgrey_by_narkos01-d3lhij4.jpg");
 	background-repeat: no-repeat;
 	background-size: 1500px 1500px;
 }
+ */
 
 p {
-	color: white;
+	color: black;
 	font-family: 'Century Gothic';
 }
 
 .mainQuote {
 	font-size: 40px;
 	font-family: 'Impact';
-	color: white;
+	color: black;
 	font-weight: 900;
 	font-style: normal;
 }
